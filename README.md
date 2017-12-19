@@ -1,6 +1,6 @@
 # Online-Book-Store-app-using-PHP-Jquery-Ajax
 
-project includes following major functionalities:
+project includes following major functionalities: 
 
 	User signup: Register a new user to the system. 
 o	Check the new username or email address if it’s already registered to the system using AJAX. 
