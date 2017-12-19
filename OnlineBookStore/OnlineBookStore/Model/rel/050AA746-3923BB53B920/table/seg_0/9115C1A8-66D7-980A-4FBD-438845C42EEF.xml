@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9115C1A8-66D7-980A-4FBD-438845C42EEF" name="OrderDetails">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>E9E412E0-5B2F-23A5-6CD6-957DA464B9F9</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ExpectedShippingDate" id="323AEB01-32A4-AB9B-AE6C-FF4926C4D6C4">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>4E3AF593-0A34-C36E-40EA-C72A6F1B5D2C</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ActualShippingDate" id="C5321D71-5AE1-35B5-4429-8A33381FC80E">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>CB45E9ED-546D-72BD-5FE0-5247E0BAB56E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="F8571A0C-CB47-34E1-7231-11F55214276E">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>061C15D4-8C9C-2798-7B4A-B1AB6D97D949</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Flag" id="23D6E77B-DB7B-1497-A013-9EE6D3CEA4F9">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>F62798A2-F132-9496-9DE0-DD159FA0693B</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Qty" id="1B659ADE-F4DD-1B95-CD98-4D0656472E81">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>FFDAC424-FD01-FE78-736D-1AECEBC8AF94</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Books_BookID" id="9E45A078-C4B6-2B3C-F3E4-6A7E2619C339">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>18B16E5F-430A-E2AE-639F-DABE2075EDF4</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA2D70F4-C4D7-28D3-1F9C-6B7D49613D83" referredColumn="9399986C-B03F-3E31-3A10-9C2C751BA914"/>
+</associations>
+</Column>
+<Column name="Orders_OrderID" id="FB4DEA75-8E8B-7073-5A2C-A2046F3FEFDB">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>C206BAA2-596E-C486-B503-07EC16230BAD</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FA7275A-7779-98BC-F5C2-3C9C7AB475C3" referredColumn="B6C7C995-4B47-59D4-F68A-A31B1A4969FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82A330A0-D651-85F9-8503-430E09CEB42B" name="OrderDetails_Books_FK">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>F6FEF818-6EEF-1EAC-505C-A44A8E2C4BD7</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E45A078-C4B6-2B3C-F3E4-6A7E2619C339"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F59FC244-6276-C588-03DE-586161BE2C76" name="OrderDetails_Orders_FK">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>ECE6A3F4-F856-0D6D-98D2-F2712CD0CD05</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB4DEA75-8E8B-7073-5A2C-A2046F3FEFDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

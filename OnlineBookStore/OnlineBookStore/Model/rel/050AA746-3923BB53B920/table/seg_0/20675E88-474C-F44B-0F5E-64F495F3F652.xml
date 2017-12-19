@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20675E88-474C-F44B-0F5E-64F495F3F652" name="Subgenre">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>C779EAF6-E2B5-6AAA-1645-E6A80AFC2DD6</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SubGenreID" id="F53B9DCF-542C-18E8-B3EE-04D7F11CA8F4">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>4A3D96B4-070E-9029-547E-E0ACFE68BEA3</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="D3C44A45-4724-10DC-BEC0-861F981C8790">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>6590AC79-D19C-F476-6EA8-D47748875C7D</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36844225-3A96-FB25-8674-00665BEAA26A" name="Subgenre_PK">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>FDCB6CF7-C344-16CF-4D95-63CC20284F73</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F53B9DCF-542C-18E8-B3EE-04D7F11CA8F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

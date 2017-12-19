@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="004AA076-8F9B-03DF-9972-90E38BA7177F" name="Genre">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:12:43 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GenreId" id="2519905A-BE1D-FDE2-CBEF-139D5BC42345">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:13:17 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="4C0C3D7E-2877-E022-D81C-4754B9D3BB01">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:13:55 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7EC8787A-BEE3-2064-C9AF-2C437AB2AC1F" name="PK">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:19:02 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2519905A-BE1D-FDE2-CBEF-139D5BC42345</newElementsIDs>
+<usedAttributes>
+<attributeRef>2519905A-BE1D-FDE2-CBEF-139D5BC42345</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

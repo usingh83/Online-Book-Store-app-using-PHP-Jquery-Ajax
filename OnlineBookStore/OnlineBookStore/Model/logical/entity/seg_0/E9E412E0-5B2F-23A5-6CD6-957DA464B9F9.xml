@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9E412E0-5B2F-23A5-6CD6-957DA464B9F9" name="OrderDetails">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:34:55 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ExpectedShippingDate" id="4E3AF593-0A34-C36E-40EA-C72A6F1B5D2C">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:35:23 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ActualShippingDate" id="CB45E9ED-546D-72BD-5FE0-5247E0BAB56E">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:36:02 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="061C15D4-8C9C-2798-7B4A-B1AB6D97D949">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:36:42 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flag" id="F62798A2-F132-9496-9DE0-DD159FA0693B">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:37:02 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Qty" id="FFDAC424-FD01-FE78-736D-1AECEBC8AF94">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:43:08 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BookID" id="18B16E5F-430A-E2AE-639F-DABE2075EDF4">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:38:56 UTC</createdTime>
+<generatorID>F6FEF818-6EEF-1EAC-505C-A44A8E2C4BD7</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<referedAttribute>E49E06CB-A08B-071B-F94E-FBD103D6D1B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderID" id="C206BAA2-596E-C486-B503-07EC16230BAD">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:42:10 UTC</createdTime>
+<generatorID>ECE6A3F4-F856-0D6D-98D2-F2712CD0CD05</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<referedAttribute>2FB9A776-80A9-69A8-E0D1-2AF0F213D03E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

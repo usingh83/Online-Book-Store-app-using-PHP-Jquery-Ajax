@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C058BE7C-FF9E-6D73-0FA8-A939BA7C1010" name="Admin">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>A0FB9698-5DD8-E502-6A32-0D5B15A55CE1</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="User_UserID" id="ABB20728-D08C-2F68-D810-EB997E722EC7">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>118C8167-4E75-56F1-20CA-99D636D2B2F5</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D49A17B-6E43-795A-1845-014179E44681" referredColumn="16421103-67D9-C3A3-85E5-8783B10063FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90058250-E6EE-E2C7-F13E-8E69FFCF1EA6" name="Admin_User_FK">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>D300C690-4C87-9C7C-6B90-6A165481094E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABB20728-D08C-2F68-D810-EB997E722EC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

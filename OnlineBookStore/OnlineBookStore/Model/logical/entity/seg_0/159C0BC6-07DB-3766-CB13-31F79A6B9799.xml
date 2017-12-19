@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="159C0BC6-07DB-3766-CB13-31F79A6B9799" name="Orders">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:39:39 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderID" id="2FB9A776-80A9-69A8-E0D1-2AF0F213D03E">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:40:03 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DateCreated" id="14469894-2E95-0285-A5BB-3F347E8E5874">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:40:26 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DateCompleted" id="51D02576-38FD-3F7A-7718-D06F087A43E9">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:40:38 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flag" id="F31DD430-9C83-F8E0-A744-87C37A48A80F">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:40:57 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UserID" id="FACE4989-1A0D-0F0B-64C7-FF44921DDFD6">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:53:10 UTC</createdTime>
+<generatorID>895F623B-6ACC-8822-FD29-CAA11E52BAD2</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<referedAttribute>614C7567-A14E-9E48-7036-6820E58525A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FECB88F1-AB29-8A8C-480B-6E67A97EA3F0" name="PK">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:41:34 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2FB9A776-80A9-69A8-E0D1-2AF0F213D03E</newElementsIDs>
+<usedAttributes>
+<attributeRef>2FB9A776-80A9-69A8-E0D1-2AF0F213D03E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

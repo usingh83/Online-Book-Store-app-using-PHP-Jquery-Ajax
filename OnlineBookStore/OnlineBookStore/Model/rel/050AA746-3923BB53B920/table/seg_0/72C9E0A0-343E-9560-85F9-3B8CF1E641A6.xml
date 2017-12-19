@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72C9E0A0-343E-9560-85F9-3B8CF1E641A6" name="Author">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>49F1E9FB-421F-7AB2-0A04-78E87995DB52</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AuthorID" id="0D648D61-4CDF-C2C1-F903-5E2BCF61E877">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>8701B435-B8C2-FA61-645A-4A23AC40D6BF</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstName" id="8FF9829A-C550-AEC8-FE3E-00D52CA24C15">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>0F295E55-A00D-812F-959A-D3481E4A7004</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LastName" id="28E7935F-0B12-AD6B-B497-0B2C60F9B7AB">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>98EFCC5A-5D9E-D23D-BAC0-AD9A50B654B1</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MiddleName" id="47507197-66CB-E372-E07C-1374F0090165">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>9FB9F40A-AF2A-A697-DC9F-01AEEE3AF50F</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AuthorBook_AuthorBook_ID" id="64590984-405F-2BAA-DB34-E6BE5C90D22B">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6BD5BF3-9CFE-3ECF-4AF9-E15C8F118B67" referredColumn="1609C087-CF0F-2255-DDEC-B6A4DCFE4683"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F6A58A1-9B14-09CD-D9E5-AC14A9B54AAD" name="Author_PK">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>A71F9483-9B2D-B498-3978-D4C6496F7B0B</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D648D61-4CDF-C2C1-F903-5E2BCF61E877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2441A0C0-67BF-3F77-8F12-E95DB79F896C" name="Author_AuthorBook_FK">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:56:32 UTC</createdTime>
+<generatorID>027BFB5C-EFF1-AB28-2A46-2763E7E38349</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64590984-405F-2BAA-DB34-E6BE5C90D22B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

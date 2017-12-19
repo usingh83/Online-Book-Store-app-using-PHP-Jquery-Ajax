@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="5DD2B32E-FB25-D8B3-A4B5-C884B689BF9C">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:08:40 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<targetPk>FDCB6CF7-C344-16CF-4D95-63CC20284F73</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>63CBDE53-4068-7395-AC13-37F2103EE211</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C779EAF6-E2B5-6AAA-1645-E6A80AFC2DD6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

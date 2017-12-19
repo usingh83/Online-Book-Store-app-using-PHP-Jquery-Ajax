@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49F1E9FB-421F-7AB2-0A04-78E87995DB52" name="Author">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:25:01 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AuthorID" id="8701B435-B8C2-FA61-645A-4A23AC40D6BF">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:25:21 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="0F295E55-A00D-812F-959A-D3481E4A7004">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:25:46 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="98EFCC5A-5D9E-D23D-BAC0-AD9A50B654B1">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:26:24 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MiddleName" id="9FB9F40A-AF2A-A697-DC9F-01AEEE3AF50F">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:26:42 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A71F9483-9B2D-B498-3978-D4C6496F7B0B" name="PK">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 06:28:42 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="050AA746-BE98-A35B-9590-3923BB53B920" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>8701B435-B8C2-FA61-645A-4A23AC40D6BF</newElementsIDs>
+<usedAttributes>
+<attributeRef>8701B435-B8C2-FA61-645A-4A23AC40D6BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

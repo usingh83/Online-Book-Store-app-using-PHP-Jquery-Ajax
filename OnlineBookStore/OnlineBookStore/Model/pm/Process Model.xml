@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="F57269AA-B699-1989-A889-B044309474F7">
+<createdBy>kanwa</createdBy>
+<createdTime>2017-11-29 05:45:05 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
